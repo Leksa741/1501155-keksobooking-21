@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг» [![Build status][travis-image]][travis-url]
 
 * Студент: [Елена Пашкова](https://up.htmlacademy.ru/javascript/21/user/1501155).
-* Наставник: `Неизвестно`.
+* Наставник: [Ася Аникина](https://htmlacademy.ru/profile/sedside).
 
 ---
 
