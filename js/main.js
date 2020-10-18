@@ -6,7 +6,7 @@ let features = ['wifi', 'dishwasher', 'parking', 'washer', 'elevator', 'conditio
 let photos = ['http://o0.github.io/assets/images/tokyo/hotel1.jpg', 'http://o0.github.io/assets/images/tokyo/hotel2.jpg', 'http://o0.github.io/assets/images/tokyo/hotel3.jpg'];
 
 let getRandomElement = function (arr) {
-  return Math.floor(Math.random() * arr.length);
+  return arr[Math.floor(Math.random() * arr.length)];
 };
 
 let getRandomInteger = function (min, max) {
@@ -39,7 +39,7 @@ let generateArray = function () {
         "title": `Элитное жилье по доступной цене № ${i + 1}`,
         "address": `Обращаться по адресу ${locationX}, ${locationY}`,
         "price": getRandomInteger(300, 500),
-        "type": type[getRandomElement(type)],
+        "type": getRandomElement(type),
         "rooms": getRandomInteger(1, 4),
         "guests": getRandomInteger(1, 6),
         "checkin": checkTime,
